@@ -90,7 +90,7 @@ button {
 }
 
 .card-container {
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(30px);
   padding: 30px;
   border-radius: 20px;
 }
