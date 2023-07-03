@@ -71,7 +71,7 @@ function App() {
             <p>({weather.weather[0].description})</p>
           </div>
         ) : (
-          <p>No cities found</p>
+          !loading && <p>No cities found</p>
         )}
       </div>
 
